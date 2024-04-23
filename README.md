@@ -1,7 +1,5 @@
 <h1 align="center">🦾 Agentic RAG Support Bot</h1>
 
-
-
 ## Overview
 This Jupyter notebook is crafted to demonstrate the integration of [Redis](https://redis.io) and [LlamaIndex](https://docs.llamaindex.ai/en/stable/) for creating a **customer support chatbot** specifically tailored for Chevy vehicles. The system is powered by an "agentic RAG" architecture.
 
@@ -21,7 +19,7 @@ This Jupyter notebook is crafted to demonstrate the integration of [Redis](https
 To begin exploring the Agentic RAG Support Bot, you can launch this notebook in a Google Colab environment for a hands-on experience:
 
 <p align="left">
-  <a href="https://colab.research.google.com/github/redis-developer/agentic-rag/Agentic_RAG_Redis_LlamaIndex.ipynb" target="_blank"><button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer;">Open in Colab</button></a>
+  <a href="https://colab.research.google.com/github/redis-developer/agentic-rag/blob/main/Agentic_RAG_Redis_LlamaIndex.ipynb" target="_blank"><button style="padding: 10px 20px; font-size: 16px; color: white; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer;">Open in Colab</button></a>
 </p>
 
 ## Architecture Diagram
