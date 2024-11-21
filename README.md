@@ -8,11 +8,10 @@ This demo demonstrates the integration of [Redis](https://redis.io), [Amazon Bed
   <img src="images/redis.png" alt="Redis Logo" width="145px"/>
   <img src="images/bedrock.png" alt="Bedrock Logo" width=50px/>
   <img src="images/llamaindex.png" alt="LlamaIndex Logo" width="45px"/>
-  <img src="images/cohere.png" alt="LlamaIndex Logo" width="225px"/>
 </p>
 
 - **[Redis](https://redis.io)**: A versatile db within the architecture, Redis functions as the document store, ingestion cache, vector store, chat history store, and semantic cache.
-- **[Amazon Bedrock](https://aws.amazon.com/bedrock/)**: Provides foundation models and embeddings models through the Bedrock API. This example uses Cohere as the model provider under the hood.
+- **[Amazon Bedrock](https://aws.amazon.com/bedrock/)**: Provides foundation models and embeddings models through the Bedrock API.
 - **[LlamaIndex](https://docs.llamaindex.ai/en/stable/)**: Acts as the central framework that ties together the entire system, enabling seamless integration with various services and tools to enhance functionality.
 
 ## Getting Started
@@ -27,7 +26,7 @@ Launch this notebook in a Google Colab environment for a hands-on experience:
  This architecture highlights document ingestion and inference with the AI agent.
 
 <p align="left">
-  <img src="images/architecture.png" alt="Architecture Diagram" width="500px"/>
+  <img src="images/llamaindex_agentic_rag_architecture.png" alt="Architecture Diagram" width="500px"/>
 </p>
 
 
@@ -37,4 +36,3 @@ For further reading and resources related to the technologies and approaches use
 - [LlamaIndex Documentation](https://docs.llamaindex.ai/en/stable/)
 - [LlamaIndex <> Redis Integration](https://docs.llamaindex.ai/en/latest/examples/vector_stores/RedisIndexDemo/)
 - [Amazon Bedrock Console](https://aws.amazon.com/bedrock/)
-- [Cohere Documentation](https://docs.cohere.ai/)
