@@ -1,0 +1,16 @@
+services:
+
+  redis-database:
+    container_name: redis-database
+    hostname: redis-database
+    image: redis/redis-stack-server:7.4.0-v1
+    ports:
+      - "6379:6379"
+    environment:
+      REDIS_ARGS: --save 30 1
+    healthcheck:
+      test: [ "CMD-SHELL", "redis-cli ping | grep PONG" ]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+      timeout: 5s
